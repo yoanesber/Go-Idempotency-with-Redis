@@ -21,7 +21,7 @@ POSTGRES_DOCKERFILE=./docker/postgres/Dockerfile
 POSTGRES_PORT=5432
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=P@ssw0rd
-POSTGRES_DB=payment_service
+POSTGRES_DB=golang_demo
 
 # Network for the application and RabbitMQ containers
 NETWORK=app-network
