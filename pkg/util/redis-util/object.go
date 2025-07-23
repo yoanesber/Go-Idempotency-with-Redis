@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
 )
 
 // SetJSON sets a JSON value in Redis with a specified key and TTL.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
 )
 
 // SetHashField sets a field in a Redis hash with a specified key and value.

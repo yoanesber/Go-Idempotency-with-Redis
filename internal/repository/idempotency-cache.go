@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
 )
 
 // Interface for idempotency key repository

@@ -10,8 +10,8 @@ import (
 	gormLogger "gorm.io/gorm/logger" // Import GORM logger for logging SQL queries
 	"gorm.io/gorm/schema"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	"github.com/yoanesber/go-idempotency-api/pkg/logger"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/logger"
 )
 
 var (

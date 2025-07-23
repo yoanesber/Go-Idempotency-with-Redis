@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
 )
 
 // AddToSet adds one or more members to a Redis Set

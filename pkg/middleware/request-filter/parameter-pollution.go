@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
 )
 
 /**

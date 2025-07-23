@@ -8,9 +8,9 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/yoanesber/go-idempotency-api/config/database"
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	"github.com/yoanesber/go-idempotency-api/internal/repository"
+	"github.com/yoanesber/go-idempotency-with-redis/config/database"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/repository"
 )
 
 // Interface for consumer service

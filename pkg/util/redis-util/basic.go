@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
 )
 
 // Set sets a string value in Redis with a specified key and TTL.

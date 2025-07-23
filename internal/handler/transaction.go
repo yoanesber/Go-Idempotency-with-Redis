@@ -8,10 +8,10 @@ import (
 	"gopkg.in/go-playground/validator.v9"
 	"gorm.io/gorm"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	"github.com/yoanesber/go-idempotency-api/internal/service"
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
-	validation "github.com/yoanesber/go-idempotency-api/pkg/util/validation-util"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/service"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
+	validation "github.com/yoanesber/go-idempotency-with-redis/pkg/util/validation-util"
 )
 
 // This struct defines the TransactionHandler which handles HTTP requests related to transactions.

@@ -3,8 +3,8 @@ package test_consumer
 import (
 	"time"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	"github.com/yoanesber/go-idempotency-api/pkg/customtype"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/customtype"
 )
 
 // getDummyConsumer returns a dummy consumer entity for testing purposes.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
 )
 
 // Increment increases a key's value by 1 (or given amount)

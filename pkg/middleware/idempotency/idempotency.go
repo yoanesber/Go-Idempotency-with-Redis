@@ -10,11 +10,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	metacontext "github.com/yoanesber/go-idempotency-api/pkg/context-data/meta-context"
-	hashutil "github.com/yoanesber/go-idempotency-api/pkg/util/hash-util"
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
-	redisutil "github.com/yoanesber/go-idempotency-api/pkg/util/redis-util"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	metacontext "github.com/yoanesber/go-idempotency-with-redis/pkg/context-data/meta-context"
+	hashutil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/hash-util"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
+	redisutil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/redis-util"
 )
 
 /**

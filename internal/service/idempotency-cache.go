@@ -11,11 +11,11 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/yoanesber/go-idempotency-api/config/database"
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	"github.com/yoanesber/go-idempotency-api/internal/repository"
-	metacontext "github.com/yoanesber/go-idempotency-api/pkg/context-data/meta-context"
-	redisutil "github.com/yoanesber/go-idempotency-api/pkg/util/redis-util"
+	"github.com/yoanesber/go-idempotency-with-redis/config/database"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/repository"
+	metacontext "github.com/yoanesber/go-idempotency-with-redis/pkg/context-data/meta-context"
+	redisutil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/redis-util"
 )
 
 const (

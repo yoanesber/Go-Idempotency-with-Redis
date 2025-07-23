@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
 )
 
 // PushToList pushes a value to a Redis list with a specified key.

@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/go-playground/validator.v9"
 
-	validation "github.com/yoanesber/go-idempotency-api/pkg/util/validation-util"
+	validation "github.com/yoanesber/go-idempotency-with-redis/pkg/util/validation-util"
 )
 
 const (

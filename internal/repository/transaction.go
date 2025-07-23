@@ -3,7 +3,7 @@ package repository
 import (
 	"fmt"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
 	"gorm.io/gorm" // Import GORM for ORM functionalities
 )
 

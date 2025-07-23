@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"github.com/yoanesber/go-idempotency-api/pkg/logger"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/logger"
 )
 
 /**

@@ -1,4 +1,4 @@
-module github.com/yoanesber/go-idempotency-api
+module github.com/yoanesber/go-idempotency-with-redis
 
 go 1.24.2
 

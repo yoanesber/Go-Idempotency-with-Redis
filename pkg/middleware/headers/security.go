@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/unrolled/secure"
 
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
 )
 
 /**

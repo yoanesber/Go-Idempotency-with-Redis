@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/yoanesber/go-idempotency-api/pkg/logger"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/logger"
 
 	"github.com/go-redis/redis/v8" // Redis client for Go
 )

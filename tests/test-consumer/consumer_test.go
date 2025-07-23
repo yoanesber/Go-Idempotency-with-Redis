@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yoanesber/go-idempotency-api/internal/entity"
-	"github.com/yoanesber/go-idempotency-api/internal/handler"
-	"github.com/yoanesber/go-idempotency-api/internal/service"
-	"github.com/yoanesber/go-idempotency-api/pkg/customtype"
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/entity"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/handler"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/service"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/customtype"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
 )
 
 func TestGetConsumers(t *testing.T) {

@@ -10,12 +10,12 @@ import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/yoanesber/go-idempotency-api/config/cache"
-	"github.com/yoanesber/go-idempotency-api/config/database"
-	"github.com/yoanesber/go-idempotency-api/pkg/diagnostics"
-	"github.com/yoanesber/go-idempotency-api/pkg/logger"
-	validation "github.com/yoanesber/go-idempotency-api/pkg/util/validation-util"
-	"github.com/yoanesber/go-idempotency-api/routes"
+	"github.com/yoanesber/go-idempotency-with-redis/config/cache"
+	"github.com/yoanesber/go-idempotency-with-redis/config/database"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/diagnostics"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/logger"
+	validation "github.com/yoanesber/go-idempotency-with-redis/pkg/util/validation-util"
+	"github.com/yoanesber/go-idempotency-with-redis/routes"
 )
 
 var (

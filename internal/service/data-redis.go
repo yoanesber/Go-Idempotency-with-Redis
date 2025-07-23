@@ -1,7 +1,7 @@
 package service
 
 import (
-	redisutil "github.com/yoanesber/go-idempotency-api/pkg/util/redis-util"
+	redisutil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/redis-util"
 )
 
 // Interface for the DataRedisService

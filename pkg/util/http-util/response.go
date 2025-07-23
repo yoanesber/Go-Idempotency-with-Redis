@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yoanesber/go-idempotency-api/pkg/logger"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/logger"
 )
 
 // ErrorResponse represents the structure of an error response.

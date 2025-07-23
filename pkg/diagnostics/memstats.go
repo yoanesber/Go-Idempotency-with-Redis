@@ -4,7 +4,7 @@ import (
 	"runtime"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/yoanesber/go-idempotency-api/pkg/logger"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/logger"
 )
 
 func LogMemoryStats(stage string) {

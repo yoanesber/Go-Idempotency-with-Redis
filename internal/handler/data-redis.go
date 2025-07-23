@@ -4,8 +4,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 
-	"github.com/yoanesber/go-idempotency-api/internal/service"
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/service"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
 )
 
 // This struct defines the DataRedisHandler which handles HTTP requests related to Redis data.

@@ -4,14 +4,14 @@ import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 
-	"github.com/yoanesber/go-idempotency-api/internal/handler"
-	"github.com/yoanesber/go-idempotency-api/internal/repository"
-	"github.com/yoanesber/go-idempotency-api/internal/service"
-	"github.com/yoanesber/go-idempotency-api/pkg/middleware/headers"
-	"github.com/yoanesber/go-idempotency-api/pkg/middleware/idempotency"
-	"github.com/yoanesber/go-idempotency-api/pkg/middleware/logging"
-	request_filter "github.com/yoanesber/go-idempotency-api/pkg/middleware/request-filter"
-	httputil "github.com/yoanesber/go-idempotency-api/pkg/util/http-util"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/handler"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/repository"
+	"github.com/yoanesber/go-idempotency-with-redis/internal/service"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/middleware/headers"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/middleware/idempotency"
+	"github.com/yoanesber/go-idempotency-with-redis/pkg/middleware/logging"
+	request_filter "github.com/yoanesber/go-idempotency-with-redis/pkg/middleware/request-filter"
+	httputil "github.com/yoanesber/go-idempotency-with-redis/pkg/util/http-util"
 )
 
 // SetupRouter initializes the router and sets up the routes for the application.
